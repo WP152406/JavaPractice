@@ -16,7 +16,7 @@ package org.dimigo.basic;
  * @ver : 1.0
  */
 public class PrimitiveDataType {
-
+	
 	/**
 	 * @param args
 	 */
@@ -36,7 +36,7 @@ public class PrimitiveDataType {
 		System.out.println("키 : " + height);
 		System.out.println("몸무게 : " + weight);
 		System.out.println("혈액형 : "+ bloodType);
-		
+	
 	}
 
 }
