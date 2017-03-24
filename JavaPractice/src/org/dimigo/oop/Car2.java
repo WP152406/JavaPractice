@@ -32,7 +32,7 @@ public class Car2 {
 		this.model=newModel;
 		this.color=newColor;
 		this.maxSpeed=newMaxSpeed;
-		this.price=newPrice;
+		this.price=newPrice; 
 	}
 	
 	public String getCompany() {
