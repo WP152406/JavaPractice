@@ -32,7 +32,7 @@ public class ArakoMenu {
 	         writer.flush();
 	         System.out.println("<< 메뉴 출력 >>");
 	         while((str = reader.readLine()) != null) System.out.println(str);         
-	      }catch(Exception e) {
+	      }catch(Exception e) { 
 	         e.printStackTrace();
 	      }
 	   }
