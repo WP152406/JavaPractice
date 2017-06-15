@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.dimigo.io.ArakoMenu;
+package org.dimigo.io;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -12,7 +12,7 @@ import java.io.Writer;
 
 /**
  * <pre>
- * org.dimigo.io.ArakoMenu
+ * org.dimigo.io
  *    |_ArakoMenu.java
  *
  * 1. 개요 :
@@ -32,8 +32,8 @@ public class ArakoMenu {
 	         writer.flush();
 	         System.out.println("<< 메뉴 출력 >>");
 	         while((str = reader.readLine()) != null) System.out.println(str);         
-	      }catch(Exception e) { 
+	      }catch(Exception e) {
 	         e.printStackTrace();
-	      }  
+	      }
 	   }
-	}	
+	}
