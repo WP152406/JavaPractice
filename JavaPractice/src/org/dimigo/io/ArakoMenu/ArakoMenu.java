@@ -34,6 +34,6 @@ public class ArakoMenu {
 	         while((str = reader.readLine()) != null) System.out.println(str);         
 	      }catch(Exception e) { 
 	         e.printStackTrace();
-	      }
+	      }  
 	   }
 	}	
